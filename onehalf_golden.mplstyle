@@ -1,0 +1,32 @@
+# Set default figure size
+figure.figsize : 5.0, 3.09
+
+# set colors
+text.color : (0,0,0)
+xtick.color : (0,0,0)
+ytick.color : (0,0,0)
+
+# axes
+axes.linewidth : 0.25
+axes.edgecolor : (0.35,0.35,0.35)
+axes.labelcolor : (0,0,0)
+
+xtick.major.size : 1.5
+xtick.major.width : 0.25
+xtick.minor.size : 0.75
+xtick.minor.width : 0.25
+
+ytick.major.size : 1.5
+ytick.major.width : 0.25
+ytick.minor.size : 0.75
+ytick.minor.width : 0.25
+
+# Always save as 'tight'
+savefig.bbox : tight
+savefig.pad_inches : 0.05
+
+mathtext.fontset: stix
+# font.family: STIXGeneral
+
+axes.titlesize : 10
+axes.labelsize : 10
